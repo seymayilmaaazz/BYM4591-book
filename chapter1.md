@@ -18,6 +18,23 @@ Yazılımın sahipsiz olması farklı kullanıcılar tarafından geliştirilmesi
 
 ## GNU/Linux Kullanımında Gerekli Bilgiler
 
+## LINUX’UN KARAKTERİSTİK ÖZELLİKLERİ
+
+ Linux ,Linus Torvalds ve internet arkadaşları tarafından tümü ile yeniden kodlanmış bir UNIX kopyasıdır. Herhangi bir işletim sisteminden beklenen herşeyi içerir.
+Linux işletim sisteminde POSIX standartlarına uygunluk ön plandadır.Bazı özellikleri, gerçek çok işlemli olma,sanal bellek, dünyanın en hızlı TCP/IP sürücülerine sahip olma, kütüphane paylaşımı, 100`lerce 1000`lerce kişiye aynı anda hizmet verebilen gerçek çok kullanıcılık olarak sayılabilinir.
+Linux ayrıca tümü ile korunmuş mode da 32 bit ve 64 bit çok işlem özelliğini taşır. Linux X/Open standartlarını içeren serbest bir X Windows uygulaması da içerir.Birçok X tabanlı program Linuxta herhangi bir değişiklik gerekmeksizin çalışır.
+Birçok Linux dağıtımı önceden hazırlanmış konfigürasyon ve grafik ortamında çalışmaktadır.
+SCO Unix 4.2 ve SVR4 için hazırlanmış birçok yazılım Linuxta hiç değişikliğe uğramadan çalışır (IBCS).
+Linux DOS emülatörü (DOSEMU) MS-DOS uygulamalarını (VGA ve SVGA grafik özelliği isteyen bazıları dahil) çalıştırır.
+Windows programları ise WINE özelliği ile çalıştırılabilir,hem de Linux`un buffering özelliği dolayısı ile kat kat daha hızlı.
+Birçok Unix lerde görüldüğü üzere Linux birçok ağyapı özelliğini içerir. Linux`u geliştirenler internette bu işlemi yaptıkları için Linux`ta ağyapı özelliği hiçbir itiraza meydan vermeyecek şekilde mükemmeldir.
+Linux internette bağlantıyı TCP/IP ve ethernet üzerinden IPX,hızlı ethernet, ATM, modem, HAM/packet radio(X.25) , ISDN, tokenring, PLIP gibi birçok yapı ile sağlayabilir. Internet/www sunuculuğu için Linux mükemmel bir seçimdir. Binlerce ISP, üniversite, iş alemi internete hep Linux ile ulaşır.
+Linux internet protokollarının hemen hemen tamamını, electronic-mail,usenet news, Gopher, Telnet ,Web,FTP,Talk, POP, NTP, IRC, NFS, DNS, NIS, SNMP, Kerberos, WAIS ve diğerlerini destekler.Linux tüm yukarıdaki uygulamalar için sunucu ya da işlemci olarak tanımlanabilinir.
+Linux yerel ağ yapınıza çok rahatlıkla adapte olur. Macintosh, DOS, Windows, Windows NT, Windows 95, Novell, OS/2 vb. tüm yapılar için entegrasyon mevcuttur. Hem de anılan işletim sistemlerinin yapısı bozulmaksızın bu işlem yapılır.
+Linux tüm bunları 8 MB gerçek bellek, 16 MB ı swap olmak üzere toplam 24 MB lık hafıza alanında rahatlıkla gerçekleştirir. Linux ayrıca PowerPC, Macintosh, Amiga, Atari vb. yapılara da uyarlanmıştır.
+Linux kerneli Linux B. Torvalds tarafından GPL (General Public License) altında tescillenmiştir. Her isteyen kendi kopyasını yapabilir, satabilir, başkalarına dağıtabilir (çok küçük bazı istisnalar dışında).
+Linus Torvalds bile projeyi durdurmak isterse bütün kaynak kodu GPL olduğu için Linux`un geliştirilmesinin durması söz konusu değildir. Linux tüm Internet paylaşımcılarınındır.
+
 ### Dosya Sistem Yapısı
 
 Klasörler dosyaları içeren yapılardır. Dosyalar; sistem, kullanıcı ve çalışabilir dosyalar olmak üzere üçe ayrılır. Sistem dosyaları, işletim sisteminin kullandığı metin tipinde yazılmış dosyalardır. Kullanıcı dosyaları, işletim sistemi kullanıcılarının sayısal ve alfabetik veriler içeren metin tipinde dosyalarıdır. Çalışabilir dosyalar, özel yazılım ürünleri olan ve belli amaçlar doğrultusunda oluşturulmuş programlardır.
